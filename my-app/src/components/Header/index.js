@@ -3,8 +3,10 @@ import './style.scss';
 
 const Header = () => (
 	<div className='header'>
-		<h1 className='header_title'>âme & lieu</h1>
-		<nav>
+		<h1 className='header_title'>âme</h1>
+		<h1 className='header_title'>&</h1>
+		<h1 className='header_title'>lieu</h1>
+		<nav className='header_nav'>
 			<ul>
 				<li>accueil</li>
 				<li>votre rue</li>
