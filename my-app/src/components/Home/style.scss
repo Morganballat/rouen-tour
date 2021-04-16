@@ -9,5 +9,11 @@
 		margin: 0;
 		text-align: center;
 		text-transform: uppercase;
+		font-size: 3rem;
+	}
+	&_pres {
+		text-align: center;
+		background-color: blue;
+		width: 80%;
 	}
 }
