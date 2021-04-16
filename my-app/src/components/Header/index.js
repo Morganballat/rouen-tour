@@ -6,20 +6,35 @@ const Header = () => (
 		<h1 className='header_title'>âme</h1>
 		<h1 className='header_title'>&</h1>
 		<h1 className='header_title'>lieu</h1>
+		<input type='type' placeholder='RECHERCHER' />
 		<nav className='header_nav'>
 			<ul>
-				<li>accueil</li>
-				<li>votre rue</li>
-				<li>nos actions</li>
-				<li>on a besoin de vous</li>
-				<li>Nos belles histoires</li>
-				<li>mon compte</li>
-				<li>déconnexion</li>
+				<li>
+					<a href='/'>accueil</a>
+				</li>
+				<li>
+					<a href='/street'>votre rue</a>
+				</li>
+				<li>
+					<a href='/acts'>nos actions</a>
+				</li>
+				<li>
+					<a href='/missions'>on a besoin de vous</a>
+				</li>
+				<li>
+					<a href='/stories'>Nos belles histoires</a>
+				</li>
+				<li>
+					<a href='/account'>mon compte</a>
+				</li>
+				<li>
+					<a href='/logout'>déconnexion</a>
+				</li>
 			</ul>
 		</nav>
 		<div className='header_footer'>
-			<p className='header_footer-date'>2021</p>
-			<p className='header_footer-détails'>détails</p>
+			<p className='header_footer-date'> 2021</p>
+			<p className='header_footer-details'>détails</p>
 		</div>
 	</div>
 );
