@@ -7,6 +7,8 @@
 	top: 0;
 	height: 100vh;
 	width: 15rem;
+	z-index: 1;
+	box-shadow: 0.1rem 0.1rem 1rem black;
 
 	&_title {
 		padding: 0rem 1rem;
@@ -36,6 +38,27 @@
 	&_footer-details {
 		padding-right: 0.5rem;
 	}
+
+	&_social-network {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0rem 2rem;
+	}
+}
+
+.logo-social {
+	width: 3rem;
+	margin: 1rem;
+	// padding: 1rem;
+	flex-wrap: wrap;
+	box-shadow: 0.1rem 0.1rem 1rem black;
+	border-radius: 50%;
+	transition: transform 0.2s;
+}
+
+.logo-social:hover {
+	transform: scale(1.5);
 }
 
 input {
@@ -46,8 +69,9 @@ input {
 	font-family: 'Antonio', sans-serif;
 	padding-left: 1rem;
 	margin-top: 1.5rem;
-	margin-left: 3rem;
+	margin-left: 1.9rem;
 	box-shadow: 0.1rem 0.1rem 1rem black;
+	width: 10rem;
 }
 
 li {
