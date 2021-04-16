@@ -18,6 +18,24 @@ function App() {
 				<Route path='/street' exact>
 					<Street />
 				</Route>
+				<Route path='/street' exact>
+					<Street />
+				</Route>
+				<Route path='/acts' exact>
+					<Street />
+				</Route>
+				<Route path='/missions' exact>
+					<Street />
+				</Route>
+				<Route path='/stories' exact>
+					<Street />
+				</Route>
+				<Route path='/account' exact>
+					<Street />
+				</Route>
+				<Route path='/logout' exact>
+					<Street />
+				</Route>
 			</Switch>
 		</div>
 	);
