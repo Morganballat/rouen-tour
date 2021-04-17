@@ -5,7 +5,7 @@ import './style.scss';
 
 import Header from '../Header';
 import Home from '../Home';
-import Street from '../Street';
+import Map from '../Map';
 
 function App() {
 	return (
@@ -15,26 +15,24 @@ function App() {
 				<Route path='/' exact>
 					<Home />
 				</Route>
-				<Route path='/street' exact>
-					<Street />
+				<Route path='/map' exact>
+					<Map />
 				</Route>
-				<Route path='/street' exact>
-					<Street />
-				</Route>
+
 				<Route path='/acts' exact>
-					<Street />
+					<Map />
 				</Route>
 				<Route path='/missions' exact>
-					<Street />
+					<Map />
 				</Route>
 				<Route path='/stories' exact>
-					<Street />
+					<Map />
 				</Route>
 				<Route path='/account' exact>
-					<Street />
+					<Map />
 				</Route>
 				<Route path='/logout' exact>
-					<Street />
+					<Map />
 				</Route>
 			</Switch>
 		</div>

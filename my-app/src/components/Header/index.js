@@ -8,9 +8,9 @@ import youtubeImage from '../../images/youtube.png';
 
 const Header = () => (
 	<div className='header'>
-		<h1 className='header_title'>âme</h1>
-		<h1 className='header_title'>&</h1>
-		<h1 className='header_title'>lieu</h1>
+		<h1 className='header_title'>Rouen</h1>
+		<h1 className='header_title'>Tour</h1>
+
 		<input type='type' placeholder='RECHERCHER' />
 		<nav className='header_nav'>
 			<ul>
@@ -18,16 +18,16 @@ const Header = () => (
 					<a href='/'>accueil</a>
 				</li>
 				<li>
-					<a href='/street'>votre rue</a>
+					<a href='/map'>Autour de vous</a>
 				</li>
 				<li>
-					<a href='/acts'>nos actions</a>
+					<a href='/spots'>activités</a>
 				</li>
 				<li>
 					<a href='/missions'>on a besoin de vous</a>
 				</li>
 				<li>
-					<a href='/stories'>Nos belles histoires</a>
+					<a href='/stories'>histoire</a>
 				</li>
 				<li>
 					<a href='/account'>mon compte</a>
