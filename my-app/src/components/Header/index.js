@@ -18,7 +18,7 @@ const Header = () => (
 					<a href='/'>accueil</a>
 				</li>
 				<li>
-					<a href='/map'>Autour de vous</a>
+					<a href='/map'>Autour de Rouen</a>
 				</li>
 				<li>
 					<a href='/spots'>activités</a>

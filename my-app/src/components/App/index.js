@@ -5,7 +5,7 @@ import './style.scss';
 
 import Header from '../Header';
 import Home from '../Home';
-import Map from '../Map';
+import WrappedMap from '../Map';
 
 function App() {
 	return (
@@ -16,23 +16,31 @@ function App() {
 					<Home />
 				</Route>
 				<Route path='/map' exact>
-					<Map />
+					<div>
+						<WrappedMap
+							googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places`}
+							// &key=${process.env.REACT_APP_GOOGLEMAP_KEY}
+							loadingElement={<div style={{ height: '100%' }} />}
+							containerElement={<div style={{ height: '100%' }} />}
+							mapElement={<div style={{ height: '100%' }} />}
+						/>
+					</div>
 				</Route>
 
 				<Route path='/acts' exact>
-					<Map />
+					{/* <Map /> */}
 				</Route>
 				<Route path='/missions' exact>
-					<Map />
+					{/* <Map /> */}
 				</Route>
 				<Route path='/stories' exact>
-					<Map />
+					{/* <Map /> */}
 				</Route>
 				<Route path='/account' exact>
-					<Map />
+					{/* <Map /> */}
 				</Route>
 				<Route path='/logout' exact>
-					<Map />
+					{/* <Map /> */}
 				</Route>
 			</Switch>
 		</div>
