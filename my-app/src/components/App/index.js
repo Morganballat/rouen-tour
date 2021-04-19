@@ -19,7 +19,7 @@ function App() {
 				<Route path='/place' exact>
 					<Place />
 				</Route>
-				<Route path='/activities' exact>
+				<Route path='/activities'>
 					<Activities />
 				</Route>
 				<Route path='/stories' exact>
