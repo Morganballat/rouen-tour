@@ -7,12 +7,6 @@ import twitterImage from '../../images/twitter.png';
 import youtubeImage from '../../images/youtube.png';
 
 const Header = () => {
-	console.log(window.location.pathname);
-
-	// const a = document.getElementsByTagName('a');
-	// const isActive = window.location.pathname ===  ;
-	// const className = isActive ? 'active' : '';
-
 	const homeClass = window.location.pathname === '/' ? 'active' : '';
 	const placeClass = window.location.pathname === '/place' ? 'active' : '';
 	const activitiesClass =

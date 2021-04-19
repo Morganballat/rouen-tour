@@ -1,4 +1,7 @@
 .parks {
 	background-color: blue;
 	width: 100%;
+	&_list {
+		background-color: red;
+	}
 }
