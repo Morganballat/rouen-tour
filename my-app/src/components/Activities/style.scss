@@ -1,0 +1,34 @@
+.activities {
+	background-color: rgba(137, 43, 226, 0.309);
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	margin-left: 15rem;
+
+	&_header {
+		display: flex;
+		justify-content: center;
+		border-bottom: 0.1rem solid black;
+	}
+	&_navbar ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	&_navbar > ul > li {
+		display: block;
+		text-align: center;
+		padding: 0.5rem 1rem;
+
+		margin: 1rem;
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	li:hover {
+		border: 0.1rem solid black;
+		border-radius: 2rem;
+		padding: 0.4rem 0.9rem;
+	}
+}

@@ -6,17 +6,10 @@ import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps';
 const Map = () => {
 	return (
 		<div className='map'>
-			<input
-				className='map_input'
-				type='text'
-				placeholder='rechercher une adresse'
-			/>
-			{/* <div style={{ width: '50vw', height: '50vh' }}> */}
 			<GoogleMap
-				defaultZoom={10}
+				defaultZoom={13}
 				defaultCenter={{ lat: 49.443232, lng: 1.099971 }}
 			></GoogleMap>
-			{/* </div> */}
 		</div>
 	);
 };
