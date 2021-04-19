@@ -20,9 +20,11 @@ const Parks = () => (
 		<div className='parks_list'>
 			<div className='parks_list-title'>listes de parcs</div>
 			<div className='parks_park'>
-				<div className='parks_park-name'>Parc imaginaire</div>
-				<div className='parks_park-address'>Au palais de Dieu</div>
-				<div className='parks_park-description'>Un parc merveilleux </div>
+				<div className='parks_park-name'>Parc: Parc imaginaire</div>
+				<div className='parks_park-address'>Adresse: Au palais de Dieu</div>
+				<div className='parks_park-description'>
+					Description: Un parc merveilleux{' '}
+				</div>
 			</div>
 		</div>
 	</div>
