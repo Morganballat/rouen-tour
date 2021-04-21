@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import './style.scss';
 
 import MenuActivities from './MenuActivities';
-import Parks from './Parks';
+import Parks from '../../containers/Activities/Parks';
 import Sports from './Sports';
 
 const Activities = () => (
